@@ -50,7 +50,7 @@ const Footer = () => {
                     </div>
                     <div className="info-text-wrapper">
                         <div className="info-text-1">주소</div>
-                        <div className="info-text-2">경기도 고양시 덕양구 항공대학로</div>
+                        <div className="info-text-2">경기도 고양시 덕양구 한국항공대학교</div>
                     </div>
                     <div className="info-text-wrapper">
                         <div className="info-text-1">상호명</div>
