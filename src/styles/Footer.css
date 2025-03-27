@@ -8,6 +8,14 @@
     src: url("../../public/font/fonts/NanumMyeongjo-Regular.ttf") format("truetype")
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    background-color: #E7EFF5;
+    padding: 52px 72px;
+}
+
 .foooter-section {
     display: flex;
     flex-direction: column;
@@ -19,20 +27,25 @@
     font-family: 'KaiseiDecol-Regular';
 }
 
+.info-text-wrapper,
 .footer-subtitle {
     font-family: 'NanumMyeongjo';
 }
 
-.footer-text-wrapper {
+.info-text-wrapper {
     display: flex;
     gap: 16px;
-    font-family: 'NanumMyeongjo';
 }
 
 .info-text-1 {
-    color:aliceblue;
+    color: black;
 }
 
 .info-text-2 {
-    color: bisque;
+    color: gray;
+}
+
+.info-text-row {
+    display: flex;
+    gap: 8px;
 }
