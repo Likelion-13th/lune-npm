@@ -7,10 +7,12 @@ import Mypage from './pages/Mypage/Mypage';
 import Diffuser from './pages/ProductPage/Diffuser';
 import Perfume from './pages/ProductPage/Perfume';
 import New from './pages/ProductPage/New';
+import Header from './component/Header';
 
 function App() {
   return (
     <Router>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/mypage" element={<Mypage />} />

@@ -1,0 +1,53 @@
+.header-logo, .header-perfume,.header-new, .header-diffuser, .header-mypage {
+    font-family: 'KaiseiDecol-Regular';
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.header-perfume,.header-diffuser, .header-mypage, .header-new {
+    font-size: 1.2rem;
+    padding: 10px;
+
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    transition: background-color 0.3s ease;
+    align-items: center;
+}
+
+.header-term {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.mypage .header-section {
+    background-color: #333 !important;
+}
+
+.active {
+    color: #6699CC !important;  /* 원하는 색상으로 변경 */
+    font-size: 1.2rem !important;  /* 크기 변경 방지 */
+    text-decoration: none !important;  /* 밑줄 없애기 */
+    font-family: 'KaiseiDecol-Regular';
+
+}
+
+.mypage .header-logo, 
+.mypage .header-perfume, 
+.mypage .header-new, 
+.mypage .header-diffuser, 
+.mypage .header-mypage {
+    color: white !important;
+}
