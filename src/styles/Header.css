@@ -2,18 +2,15 @@
     font-family: 'KaiseiDecol-Regular';
     color: #3a3a3a;
     text-decoration: none;
+    font-size: 1.2rem;
+    line-height: 1;
+    will-change: transform;
 }
 
 .header-logo {
     font-size: 1.5rem;
     padding: 5px;
     padding-left: 10px;
-}
-
-.header-perfume,.header-diffuser, .header-mypage, .header-new {
-    font-size: 1.2rem;
-    padding: 10px;
-
 }
 
 .header-section {
@@ -23,6 +20,8 @@
     background-color: whitesmoke;
     transition: background-color 0.3s ease;
     align-items: center;
+    height: 60px;
+    will-change: transform;
 }
 
 .header-term {
@@ -34,6 +33,7 @@
 
 .mypage .header-section {
     background-color: #333 !important;
+    padding-right: 20px;
 }
 
 .active {
@@ -41,7 +41,8 @@
     font-size: 1.2rem !important;  /* 크기 변경 방지 */
     text-decoration: none !important;  /* 밑줄 없애기 */
     font-family: 'KaiseiDecol-Regular';
-
+    font-weight: normal !important;
+    line-height: 1 !important;
 }
 
 .mypage .header-logo, 
@@ -50,4 +51,8 @@
 .mypage .header-diffuser, 
 .mypage .header-mypage {
     color: white !important;
+}
+
+.header-mypage {
+    margin-right: 20px;
 }
