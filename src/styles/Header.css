@@ -1,58 +1,60 @@
-.header-logo, .header-perfume,.header-new, .header-diffuser, .header-mypage {
-    font-family: 'KaiseiDecol-Regular';
-    color: #3a3a3a;
-    text-decoration: none;
-    font-size: 1.2rem;
-    line-height: 1;
-    will-change: transform;
-}
-
-.header-logo {
-    font-size: 1.5rem;
-    padding: 5px;
-    padding-left: 10px;
-}
-
-.header-section {
+@font-face {
+    font-family: "KaiseiDecol-Regular";
+    src: url("../../public/font/fonts/KaiseiDecol-Regular.ttf") format("truetype");
+  }
+  
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    background-color: whitesmoke;
-    transition: background-color 0.3s ease;
     align-items: center;
-    height: 60px;
-    will-change: transform;
-}
-
-.header-term {
+    padding: 24px 30px;
+    font-size: 22px;
+    font-family: "KaiseiDecol-Regular";
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+  
+  header[data-page="mypage"] {
+    background-color: #e7eff5;
+  }
+  
+  .logo a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+  }
+  
+  header[data-page="mypage"] .logo a {
+    color: #3a3a3a;
+  }
+  
+  .nav-menu {
     display: flex;
-    flex-direction: row;
     gap: 30px;
-    align-items: center;
-}
-
-.mypage .header-section {
-    background-color: #333 !important;
-    padding-right: 20px;
-}
-
-.active {
-    color: #6699CC !important;  /* 원하는 색상으로 변경 */
-    font-size: 1.2rem !important;  /* 크기 변경 방지 */
-    text-decoration: none !important;  /* 밑줄 없애기 */
-    font-family: 'KaiseiDecol-Regular';
-    font-weight: normal !important;
-    line-height: 1 !important;
-}
-
-.mypage .header-logo, 
-.mypage .header-perfume, 
-.mypage .header-new, 
-.mypage .header-diffuser, 
-.mypage .header-mypage {
-    color: white !important;
-}
-
-.header-mypage {
-    margin-right: 20px;
-}
+  }
+  
+  .nav-menu a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  
+  header[data-page="mypage"] .nav-menu a {
+    color: #b8bac6;
+  }
+  
+  .nav-menu a:hover,
+  .nav-menu a:focus,
+  .nav-menu a.active {
+    color: #3a3a3a;
+  }
+  
+  header[data-page="mypage"] .nav-menu a:hover,
+  header[data-page="mypage"] .nav-menu a:hover,
+  header[data-page="mypage"] .nav-menu a.active {
+    color: #3a3a3a;
+  }
