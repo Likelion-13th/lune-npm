@@ -1,0 +1,243 @@
+@font-face {
+    font-family: "NanumMyeongjo";
+    src: url("../../public/font/fonts/NanumMyeongjo-Regular.ttf") format("truetype")
+}
+
+/* Mypage Base */
+
+.page-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 80px;
+    font-family: 'NanumMyeongjo', sans-serif;
+}
+
+.profile-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 50px 0px;
+    border-top: 1px solid #9698a4;
+    border-bottom: 1px solid #9698A4;
+}
+
+.profile-section {
+    width: 33%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 600;
+    border-left: 1px solid #9698A4;
+}
+
+.profile-section:first-child {
+    border: none;
+}
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    height: 40px;
+    font-weight: 500;
+}
+
+.profile-realName {
+    font-weight: 600;
+}
+
+.profile-stat-label {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.profile-stat-value {
+    font-weight: 400;
+}
+
+.address-container-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.address-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.address-container {
+   width: 100%;
+}
+
+.address-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.address-post {
+    width: 80px;
+    margin-right: 40px;
+}
+
+.address-base {
+    width: 800px;
+}
+
+.address-detail {
+    width: 500px;
+    margin-right: 40px;
+}
+
+.address-input-post, .address-input-base, .address-input-detail {
+    width: 100%;
+    height: 40px;
+    border: 2px solid #9698A4;
+    border-radius: 5px;
+}
+
+.address-button {
+    height: 40px;
+    background-color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.history-container-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.history-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.history-container {
+    width: 100%;
+}
+
+.history-table {
+    width: 100%;
+    border: 1px solid #9698A4;
+}
+
+.history-table th {
+    border: 1px solid #9698A4;
+    font-weight: 600;
+}
+
+.history-table td {
+    text-align: center;
+    border: 1px solid #9698A4;
+}
+
+.product-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+  
+.product-wrapper img {
+    width: 60px;
+    height: 60px;
+    margin-right: 12px;
+    object-fit: cover;
+}
+  
+.product-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+  
+.product-name {
+    font-weight: bold;
+}
+  
+.product-subtext {
+    font-size: 12px;
+    color: gray;
+}  
+
+.history-cancel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.history-cancel-button {
+    width: 80px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3a3a;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.order-status-container {
+    width: 100%;
+    margin: 40px;
+    font-family: 'NanumMyeongjo', sans-serif;
+}
+
+.order-status-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.order-status {
+    display: flex;
+    border-top: 1px solid #9698A4;
+    border-bottom: 1px solid #9698A4;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.status-box {
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    border-right: 1px solid #9698A4;
+}
+
+.status-box:last-child {
+    border: none;
+}
+
+.status-box .label {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.status-box .count {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+}
