@@ -157,6 +157,9 @@
 
 .discount {
     color: #d26156;
+    font-family: "GmarketSans-Medium";
+    text-align: right;
+    margin-bottom: 10px;
 }
 
 .pay-button {
