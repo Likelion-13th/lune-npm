@@ -1,0 +1,27 @@
+.paging {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 6px;
+}
+  
+.paging button {
+    padding: 6px 12px;
+    border: 1px solid #ffffff;
+    background-color: rgba(194, 220, 255, 0.864);
+    color: black;
+    cursor: pointer;
+    border-radius: 14px;
+}
+  
+.paging button.active {
+    background-color: rgb(164, 196, 255);
+    color: white;
+}
+  
+.paging button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+  
