@@ -9,9 +9,9 @@ const PayModal = ({ product, onClose }) => {
     // 최대 사용 가능 마일리지
     const maxMileage = 100000;
     // 상품 가격
-    //const [ , setProductPrice] = useState(product.price);
+    const [ , setProductPrice] = useState(product.price);
     // 총 결제 금액
-    //const [totalPrice, setTotalPrice] = useState(product.price);
+    const [totalPrice, setTotalPrice] = useState(product.price);
 
     // 수량 증가 및 감소 함수
     const handleQuantityChange = (type) => {
